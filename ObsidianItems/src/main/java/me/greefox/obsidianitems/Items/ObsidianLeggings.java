@@ -31,9 +31,9 @@ public class ObsidianLeggings extends JavaPlugin {
         lore.add("");
         lore.add(ChatColor.DARK_BLUE + "Made of a really hard stone!");
         im.setLore(lore);
-        AttributeModifier modifier = new AttributeModifier(UUID.randomUUID(), "generic.armor", 5, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlot.CHEST);
+        AttributeModifier modifier = new AttributeModifier(UUID.randomUUID(), "generic.armor", 5, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlot.LEGS);
         im.addAttributeModifier(Attribute.GENERIC_ARMOR, modifier);
-        AttributeModifier modifier1 = new AttributeModifier(UUID.randomUUID(), "generic.armor_toughness", 2, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlot.CHEST);
+        AttributeModifier modifier1 = new AttributeModifier(UUID.randomUUID(), "generic.armor_toughness", 2, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlot.LEGS);
         im.addAttributeModifier(Attribute.GENERIC_ARMOR_TOUGHNESS, modifier1);
         im.setCustomModelData(3987644);
         item.setItemMeta(im);

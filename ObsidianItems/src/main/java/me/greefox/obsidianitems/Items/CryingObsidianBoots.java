@@ -31,6 +31,10 @@ public class CryingObsidianBoots extends JavaPlugin {
         lore.add(ChatColor.DARK_BLUE + "Made of a really hard stone!");
         im.setLore(lore);
         im.setCustomModelData(3987631);
+        AttributeModifier modifier = new AttributeModifier(UUID.randomUUID(), "generic.armor", 2, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlot.FEET);
+        im.addAttributeModifier(Attribute.GENERIC_ARMOR, modifier);
+        AttributeModifier modifier1 = new AttributeModifier(UUID.randomUUID(), "generic.armor_toughness", 2, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlot.FEET);
+        im.addAttributeModifier(Attribute.GENERIC_ARMOR_TOUGHNESS, modifier1);
         item.setItemMeta(im);
         cryingObsidianBoots = item;
         ShapedRecipe sr = new ShapedRecipe(NamespacedKey.minecraft("crying_obsidian_boots"), item);
