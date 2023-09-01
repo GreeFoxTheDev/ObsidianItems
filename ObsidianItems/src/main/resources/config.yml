@@ -1,0 +1,10 @@
+obsidian-items:
+  enable-obsidian-boots: true
+  enable-obsidian-chestplate: true
+  enable-obsidian-helmet: true
+  enable-obsidian-leggings: true
+crying-obsidian-items:
+  enable-crying-obsidian-boots: true
+  enable-crying-obsidian-chestplate: true
+  enable-crying-obsidian-helmet: true
+  enable-crying-obsidian-leggings: true

@@ -1,0 +1,8 @@
+name: ObsidianItems
+version: '1.0'
+main: me.greefox.obsidianitems.ObsidianItems
+api-version: '1.20'
+commands:
+  giveobsidianitem:
+    description: "Gives a player one of obsidian items!"
+    usage: /<command> <item> <player>
